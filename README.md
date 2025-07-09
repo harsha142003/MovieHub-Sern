@@ -7,9 +7,7 @@ A full-stack application for managing movies, actors, and users, built with Reac
 ## Actor Sample Images
 
 Below are actor sample images from the `images` folder:
-
-| a1.png | a2.png |
-|--------|--------|
+Queries
 | ![a1](images/a1.png) | ![a2](images/a2.png) |
 
 ---
@@ -87,6 +85,7 @@ npm run seed
 ### 6. Run the application
 #### Development (concurrently runs backend & frontend)
 ```bash
+npm install
 cd .. # Go to project root
 npm run dev
 ```
