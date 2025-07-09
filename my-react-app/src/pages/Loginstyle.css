@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+.login-root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none !important;
+  padding: 0;
+}
+
+.login-root header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login-root .logo {
+  margin-bottom: 1rem;
+}
+
+.login-root h1 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.login-root p {
+  color: #d1d5db;
+  margin-bottom: 1rem;
+}
+
+.login-root form {
+  background: #1f2937;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-root input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1rem;
+  border: 1px solid #374151;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: #111827;
+  color: #fff;
+}
+
+.login-root input:focus {
+  outline: none;
+  border-color: #facc15;
+  box-shadow: 0 0 0 2px rgba(250, 204, 21, 0.25);
+}
+
+.login-root button {
+  width: 100%;
+  padding: 12px;
+  background-color: #facc15;
+  color: #111827;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.login-root button:hover {
+  background-color: #fde68a;
+  color: #111827;
+}
+
+.login-root .error-message {
+  color: #f87171;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.login-root a {
+  color: #facc15;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.login-root a:hover {
+  color: #fde68a;
+  text-decoration: underline;
+}
+
+/* OTP Form Styles */
+.otp-Form {
+  text-align: center;
+}
+
+.otp-Form .mainHeading {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.otp-Form .otpSubheading {
+  color: #d1d5db;
+  margin-bottom: 1.5rem;
+}
+
+.otp-Form .inputContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.otp-Form .otp-input {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.2rem;
+  border: 1px solid #374151;
+  border-radius: 5px;
+  background: #111827;
+  color: #fff;
+}
+
+.otp-Form .verifyButton {
+  background-color: #4ade80;
+  color: #111827;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.otp-Form .verifyButton:hover {
+  background-color: #bbf7d0;
+  color: #111827;
+}
+
+.otp-Form .resendNote {
+  margin-top: 1rem;
+  color: #d1d5db;
+}
+
+.otp-Form .resendBtn {
+  background: none;
+  border: none;
+  color: #a78bfa;
+  cursor: pointer;
+  padding: 0;
+  font-size: inherit;
+  transition: color 0.2s;
+}
+
+.otp-Form .resendBtn:hover {
+  color: #facc15;
+  text-decoration: underline;
+}
+
+.login-card {
+  background: #1f2937;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.24);
+  padding: 2.5rem 2rem;
+  max-width: 420px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-card header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login-card .logo {
+  margin-bottom: 1rem;
+}
+
+.login-card h1 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.login-card p {
+  color: #d1d5db;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "gsap": "^3.13.0",
+    "mysql2": "^3.14.1",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  },
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm start\" \"cd my-react-app && npm run dev\""
+  }
+}
